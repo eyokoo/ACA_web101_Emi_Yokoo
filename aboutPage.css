@@ -1,0 +1,23 @@
+body{
+  background-image: src="hawaii.jpg";
+}
+.top-container{
+  background-color:#030238;
+}
+
+h1{
+  color:#F2E205;
+}
+
+h2{
+  color:#F207E3;
+}
+
+h3{
+  color:#1BF2A3;
+}
+
+.main-container{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}

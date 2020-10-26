@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Roboto&display=swap'); url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background:url("sky.jpeg");
+  background-size: cover;
+  height:auto;
+}
+
+.container{
+  width:800px;
+  height:650px;
+  background:#fff;
+  margin: 50px auto;
+  box-sizing: border-box;
+  padding:40px;
+  box-shadow: 0 0 20px rgba(72,98,85,0.6);
+}
+
+.container h1{
+  text-align:center;
+  font-size:45px;
+  margin-bottom:20px;
+  color:rgb(99, 99, 99);
+  letter-spacing: 1px;
+  font-family: 'Mukta', sans-serif;
+}
+
+.input,.area{
+  width: 100%;
+  padding:20px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border:2px solid #e9eaea;
+  font-size: 14px;
+  border-radius:5px;
+  outline-color: rgba(255, 160, 122, 0.5);
+}
+
+.login .input{
+  width: 49.7%;
+}
+
+.msg .area{
+  height:200px;
+}
+
+button{
+  background-color: lightsalmon;
+  border:none;
+  padding:15px 32px;
+  color:white;
+  text-align: center;
+  display:inline-block;
+  font-size: 17px;
+  outline-color:lightblue;
+}
+
