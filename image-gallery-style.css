@@ -4,7 +4,7 @@
 }
 
 .gallery{
-  display:flex;
+  display:grid;
   flex-wrap:wrap;
   padding: 0 4px;
   justify-content:center;
@@ -22,79 +22,19 @@ margin:5pt 5pt;
   position:absolute;
   transition: all .3s ease;
   opacity: 0;
-  background-color:#eee;
+  background-color:black;
 }
-.image:hover .overlay{
-  opacity:1;
+.gallery:hover .overlay{
+  background-color:black;
+  opacity:0.5;
 }
 
 .text{
-  color:black;
+  color:red;
   font-family: sans-serif;
   position:absolute;
   top: 50%;
   left:50%;
-  transform:translate (-50%,50%)
+  transform:translate (-50%,50%);
   font-size: 20px;
-}
-
-.image-1{
-  background-image: url(https://source.unsplash.com/1600x900/?japan);
-}
-.image-2{
-  background-image: url(https://source.unsplash.com/1600x900/?mexico);
-}
-.image-3{
-  background-image: url(https://source.unsplash.com/1600x900/?medellin);
-}
-.image-4{
-  background-image: url(https://source.unsplash.com/1600x900/?austin);
-}
-.image-5{
-  background-image: url(https://source.unsplash.com/1600x900/?penang);
-}
-.image-6{
-  background-image: url(https://source.unsplash.com/1600x900/?thailand);
-}
-.image-7{
-  background-image: url(https://source.unsplash.com/1600x900/?seoul);
-}
-.image-8{
-  background-image: url(https://source.unsplash.com/1600x900/?singapore);
-}
-.image-9{
-  background-image: url(https://source.unsplash.com/1600x900/?spain);
-}
-.image-10{
-  background-image: url(https://source.unsplash.com/1600x900/?tokyo);
-}
-.image-11{
-  background-image: url(https://source.unsplash.com/1600x900/?hawaii);
-}
-.image-12{
-  background-image: url(https://source.unsplash.com/1600x900/?cartagena);
-}
-.image-13{
-  background-image: url(https://source.unsplash.com/1600x900/?texas);
-}
-.image-14{
-  background-image: url(https://source.unsplash.com/1600x900/?kyoto);
-}
-.image-15{
-  background-image: url(https://source.unsplash.com/1600x900/?cabo);
-}
-.image-16{
-  background-image: url(https://source.unsplash.com/1600x900/?kumamoto);
-}
-.image-17{
-  background-image: url(https://source.unsplash.com/1600x900/?chicago);
-}
-.image-18{
-  background-image: url(https://source.unsplash.com/1600x900/?salento);
-}
-.image-19{
-  background-image: url(https://source.unsplash.com/1600x900/?sanantonio);
-}
-.image-20{
-  background-image: url(https://source.unsplash.com/1600x900/?colorado);
-}
+  text-align: center; 
