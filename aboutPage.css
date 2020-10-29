@@ -1,23 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box
+}
+
+html{
+  font-size: 10px;
+}
+
 body{
-  background-image: src="hawaii.jpg";
-}
-.top-container{
-  background-color:#030238;
-}
-
-h1{
-  color:#F2E205;
+  font-family:'Roboto',sans-serif;
+  display:grid;
+  grid-template-columns:1fr 3fr;
 }
 
-h2{
-  color:#F207E3;
+header{
+  background-color:green;
 }
-
-h3{
-  color:#1BF2A3;
+.side-container{
+  background-color: orange;
 }
 
 .main-container{
-  display:grid;
-  grid-template-columns: 1fr 1fr;
+  background-color:blue;
 }
