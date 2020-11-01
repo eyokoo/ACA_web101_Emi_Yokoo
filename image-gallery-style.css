@@ -5,8 +5,26 @@
   padding:0;
 }
 
+
+nav{
+  display:flex;
+}
+nav ul {
+	margin:0 3rem 0 0;
+	padding:0;
+	list-style:none;
+	display:flex;
+	flex:1 0 0%;
+  justify-content:space-evenly;
+  font-size: 1.5em;
+  font-family:"roboto";
+}
+
+a{
+  text-decoration: none;
+}
 header{
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 100px;
   text-align: center;
   font-size: 40px;
