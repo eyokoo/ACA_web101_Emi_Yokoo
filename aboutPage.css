@@ -15,7 +15,6 @@ body{
 }
 
 header{
-  background-color:green;
   height:10vh;
   max-width:auto;
   margin:auto;
@@ -32,38 +31,67 @@ nav ul {
 	display:flex;
 	flex:1 0 0%;
   justify-content:space-evenly;
-  font-size: 1.3em;
+  font-size: 2em;
 }
-/* nav{
-  display:flex;
-  justify-content: space-evenly;
-  align-content:center;
-} */
+
+a{
+  text-decoration: none;
+}
 
 .banner{
+  display:flex;
+  flex-direction: column;
+  height:100vh;
+  margin-top:25px;
+}
+.portrait{
+  align-self: center;
+}
+.content{
+  align-self:center;
+  text-align: center;
+}
+.mtb{
+  align-self: center;
+}
+
+h1{
+  margin:25px;
+  font-size: 40px;
+}
+h2{
+  font-size: 25px;
+}
+p{
+  padding:50px;
+  max-width: 800px;
+  font-size: 15px;
+}
+/* .banner{
   display:flex;
   flex-wrap:wrap;
   height:90vh;
   gap:25px;
   justify-content:space-around;
-  
 }
 
 .portrait{
-  flex:1;
+  flex:2;
   display:flex;
   align-self:center;
   justify-content: center;
-  height:70vh;
+  object-fit:contain;
 }
 
 .content{
-  flex:1;
+  flex:3;
   display:flex;
   flex-direction: column;
   align-self:center;
+  border:2px solid black;
 }
 
-p{
-  padding-right:80px;
-}
+.banner .content{
+  background:red;
+
+} */

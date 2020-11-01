@@ -14,17 +14,14 @@ header{
 }
 
 h1{
-  /* border-bottom: solid 25px;
-  border-width: 10px;
-  border-color:lightblue; */
   color:rgb(238, 144, 67);
+  text-shadow: 2px 2px 8px #030C40;
 }
 
 .gallery{
   display:flex;
   flex-wrap:wrap;
   justify-content: center;
-
 }
 
 .image {
@@ -61,3 +58,8 @@ h1{
    text-align: center;
  }
 
+.animate__animated:hover{
+  animation: infinite;
+  animation-play-state: running;
+  animation:ease;
+}
