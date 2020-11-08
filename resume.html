@@ -8,16 +8,21 @@
   <link rel="stylesheet" href="./resumeStyles.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Oswald:wght@500&family=Playfair+Display:wght@900&display=swap"
     rel="stylesheet">
-    <script src="https://kit.fontawesome.com/e9edfa0563.js" crossorigin="anonymous"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <script src="https://kit.fontawesome.com/e9edfa0563.js" crossorigin="anonymous"></script>
+  <script src="./resume-interactive.js"></script>
 </head>
 <body>
   <div class="container">
     <section>
       <div>
-        <img src="CMpic.jpeg" class="avatar">
+        <img onmousedown="fadeOut()" onmouseup="fadeIn()" src="CMpic.jpeg" class="avatar" id="picture">
       </div>
       <div>
-        <div class="my-name">Christian Mantilla</div>
+        <div onclick="textColor()" class="my-name" id="title">Christian Mantilla</div>
         <div class="my-title">Cloud Optimization Engineer</div>
         <div class="contact-info">
           <div class="email">
@@ -26,9 +31,10 @@
           </div>
           <div class="phone">
             <i class="fas fa-phone"></i>
-            <div class="CM-phone">713-909-3333</div>
+            <div onclick="callMeFunction()" class="CM-phone" id="cellPhone">713-909-3333</div>
+            <div id="callMe"></div>
           </div>
-          <p>As an experienced Inside Solutions Engineer and Cloud Optimization consultant within the Advanced Solutions Group, I work with customers to help modernize their cloud environment, continually educate, monitor and build custom optimization plans. I use cost management and optimization tools to analyze cost recommendations and create custom reports for both AWS and Azure. On a daily basis I leverage tools like CloudHealth, CloudCheckr, and in-house IP, in order to reference our customer's cost/usage vs best practices, industry trends, new offerings and our history of cost optimization. This allows us to continually offer the most value and top notch customer experience for all our customers. </p>
+          <p onclick="ani1()" id="p-tag">As an experienced Inside Solutions Engineer and Cloud Optimization consultant within the Advanced Solutions Group, I work with customers to help modernize their cloud environment, continually educate, monitor and build custom optimization plans. I use cost management and optimization tools to analyze cost recommendations and create custom reports for both AWS and Azure. On a daily basis I leverage tools like CloudHealth, CloudCheckr, and in-house IP, in order to reference our customer's cost/usage vs best practices, industry trends, new offerings and our history of cost optimization. This allows us to continually offer the most value and top notch customer experience for all our customers. </p>
       </div>
     </section>
 
