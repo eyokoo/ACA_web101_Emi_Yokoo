@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
 html{
   box-sizing:border-box;
 }
@@ -7,14 +8,10 @@ html{
 }
 
 body{
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height:1.5;
   background:#F2F2F2;
   color: #323232
-}
-
-img{
-  max-width: 100%;
 }
 
 .icon{
@@ -23,6 +20,10 @@ img{
   font-size:inherit;
   height:1em;
   overflow:visible;
+}
+
+i{
+  margin-right: 10px;
 }
 
 .container{
@@ -49,12 +50,25 @@ section-title{
   font-size: 18px;
 }
 
+
 /**********
 * =Main Info
 ***********************/
 
+.my-name{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.my-title{
+  font-size: 20px;
+}
+
+img{
+  max-width: 100%;
+}
+
 img.avatar{
-  width: 130px;
+  width: 170px;
 }
 
 .my-name{
@@ -90,6 +104,8 @@ color: #236fb2
 
 .job:last-child{
   border-bottom: none;
+  margin:0;
+  padding:0;
 }
 
 .job-title-container{
@@ -102,6 +118,10 @@ color: #236fb2
 .job-company{
   font-weight: bold;
   line-height: 1.2;
+}
+
+li{
+  list-style-type: circle;
 }
 
 /***********
