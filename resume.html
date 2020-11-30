@@ -16,25 +16,38 @@
   <script src="./resume-interactive.js"></script>
 </head>
 <body>
+  <div id="menuToggle">
+    <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+    
+    <ul id="menu">
+        <a href="./resume.html"><li>Resume</li></a>
+        <a href="./aboutPage.html"><li>About Me</li></a>
+        <a href="#"><li>My Blog</li></a>
+        <a href="./contact.html"><li>Contact Me</li></a>
+        <a href="./image-gallery.html"><li>Image Gallery</li></a>
+    </ul>
+</div>
   <div class="container">
     <section>
       <div>
-        <img onmousedown="fadeOut()" onmouseup="fadeIn()" src="CMpic.jpeg" class="avatar" id="picture">
+        <img onmousedown="fadeOut()" onmouseup="fadeIn()" src="eymPic.png" class="avatar" id="picture">
       </div>
       <div>
-        <div onclick="textColor()" class="my-name" id="title">Christian Mantilla</div>
-        <div class="my-title">Cloud Optimization Engineer</div>
+        <div onclick="textColor()" class="my-name" id="title">Emi Yokoo Mantilla</div>
+        <div class="my-title">Web Developer</div>
         <div class="contact-info">
           <div class="email">
-            <i class="far fa-envelope"></i>
-            <div class="CM-email">christian.mantilla92@gmail.com</div>
+            <i class="far fa-envelope"></i>emi.yokoo94@gmail.com</div>
           </div>
-          <div class="phone">
-            <i class="fas fa-phone"></i>
-            <div onclick="callMeFunction()" class="CM-phone" id="cellPhone">713-909-3333</div>
+        
+          <div class="phone" onclick="callMeFunction()" class="CM-phone" id="cellPhone">
+            <i class="fas fa-phone"></i>210-387-3886
             <div id="callMe"></div>
           </div>
-          <p onclick="ani1()" id="p-tag">As an experienced Inside Solutions Engineer and Cloud Optimization consultant within the Advanced Solutions Group, I work with customers to help modernize their cloud environment, continually educate, monitor and build custom optimization plans. I use cost management and optimization tools to analyze cost recommendations and create custom reports for both AWS and Azure. On a daily basis I leverage tools like CloudHealth, CloudCheckr, and in-house IP, in order to reference our customer's cost/usage vs best practices, industry trends, new offerings and our history of cost optimization. This allows us to continually offer the most value and top notch customer experience for all our customers. </p>
+          <p onclick="ani1()" id="p-tag">Creative web developer dedicated to building and optimizing the performance of user-centric, high-impact websites for nationwide and global companies. Leverage technical, analytical and problem-solving skills to create dynamic, high-speed websites, apps and platforms fueling competitive advantage and revenue growth.</p>
       </div>
     </section>
 
@@ -46,28 +59,48 @@
           <div class="job-title-container">
             <div>
               <div class="job-company">SHI International</div>
-              <div class="job-title">Cloud Optimization Consultant</div>
+              <div class="job-title">Inside Account Executive</div>
             </div>
             <div>
-              May 2018 - Present
+              Feb 2018 - Present
             </div>
-          </div>  <!--end job-title container-->
-          <p>Sed banh mi cray nisi. Sint ethical echo park street art, occupy crucifix vice post-ironic single-origin coffee put a bird on it meditation bicycle rights. Tote bag esse man braid messenger bag sustainable. Activated charcoal fam ex drinking vinegar ut, laborum small batch.</p>
+          </div> 
+          <p>
+            <li>Collaborate with SHI's extensive team of agnostic solution engineers and licensing experts to provide clients with up to date technology and information specifically tailored towards their IT environment</li>
+            <li>Streamline project management for IT initiatives (action timeline to ensure success, proposal preparation, ROI/TCO analysis, etc)</li>
+            <li>Orchestrate Quarterly Business Reviews and spending reports for C-levels to provide material for budget development</li>
+          </p>
         </div> 
           <div class="job">
             <div class="job-title-container">
               <div>
-                <div class="job-company">Dollar Tree Store</div>
-                <div class="job-title">Industrial Systems Engineer</div>
+                <div class="job-company">Boeing Tianjin Composites (a Boeing Joint Venture)</div>
+                <div class="job-title">Business Operations and Communications Intern</div>
               </div>
               <div>
-                 Jan 2017 - May 2018
+                 Jul 2017 - Sep 2017
               </div>
-            </div>  <!--end job-title container-->
+            </div> 
             <p>
-              Sed banh mi cray nisi. Sint ethical echo park street art, occupy crucifix vice post-ironic single-origin coffee put a bird on it meditation bicycle rights. Tote bag esse man braid messenger bag sustainable. Activated charcoal fam ex drinking vinegar ut, laborum small batch.
+              Initiated a reconstruction of company overview and further achieved understanding of brand imaging and public relations on a global scale.
             </p>
         </div> <!--end job -->
+        <div class="job">
+          <div class="job-title-container">
+            <div>
+              <div class="job-company">Aerospace Composites Malaysia (a Boeing Joint Venture)</div>
+              <div class="job-title">Procurement & Program Management Intern</div>
+            </div>
+            <div>
+               May 2017 - Jul 2017
+            </div>
+          </div> 
+          <p>
+            <li>Redesigned quote comparison template for purchasing department which facilitated analysis of quotes and boosted operation efficiency</li>
+            <li>Constructed value chains and logistics using Microsoft Project</li>
+            <li>Compiled and registered customer orders using ERP</li>
+          </p>
+      </div> <!--end job -->
     </section>
     
     <section>
@@ -76,15 +109,12 @@
         <div class="job">
           <div class="job-title-container">
             <div>
-              <div class="job-company">Texas A&M University</div>
-              <div class="job-title">Bachelor of Science, Industrial and Systems Engineering  </div>
+              <div class="job-company">University of the Incarnet Word</div>
+              <div class="job-title">Bachelor of Business Administration (BBA), International Business </div>
             </div>
             <div>
-              August 2014 - December 2016
+              Aug 2013 - Dec 2017
             </div>
-          </div> 
-          <p>Sed banh mi cray nisi. Sint ethical echo park street art, occupy crucifix vice post-ironic single-origin coffee put a bird on it meditation bicycle rights. Tote bag esse man braid messenger bag sustainable. Activated charcoal fam ex drinking vinegar ut, laborum small batch.</p>
-        </div>
       </div>
     </section>
 
@@ -93,20 +123,21 @@
       <div>
         <div class="cert-container">
           <ul>
-            <li>AWS Solutions Architect</li>
-            <li>Azure Professional Certification</li>
+            <li>Full Stack Web Development</li>
+            <li>Japanese Language Proficiency Test (N1 - Native Proficiency)</li>
           </ul>
-        </div> <!-- end Skills container -->
+        </div> 
       </div>
     </section>
 
     <Section>
       <div class="section-title">References</div>
-      <div>
-        <div class="job-company">Ty Manzano</div>
-        <div class="job-title">SHI International</div>
-        <p>ty.manzano@shi.com</p>
-      </div>
+        <div>
+          <div class="job-company">Kelsey Powers - SHI International</div>
+          <div class="job-title">kelsey.powers@shi.com</div><br>
+          <div class="job-company">Juan Rodriguez - Austin Coding Academy</div>
+          <div class="job-title">juan.rodriguez123@gmail.com</div>
+        </div>
     </Section>
 
 </body>

@@ -7,29 +7,33 @@
   <link rel="stylesheet" href="./aboutPage.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="./index.html">Home Page</a></li>
-        <li><a href="./resume.html">Resume</a></li>
-        <li><a href="#">My Blog</a></li>
-        <li><a href="./contact.html">Contact Me</a></li>
-        <li><a href="./image-gallery.html">Image Gallery</a></li>
-      </ul>    
-    </nav>
-  </header>
-  <div class="banner"> 
-    <div class="portrait">
-      <img src="aboutPic.jpg" alt="Portrait of Me">
-    </div>
+  <div id="menuToggle">
+    <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+    
+    <ul id="menu">
+        <a href="./resume.html"><li>Resume</li></a>
+        <a href="./aboutPage.html"><li>About Me</li></a>
+        <a href="#"><li>My Blog</li></a>
+        <a href="./contact.html"><li>Contact Me</li></a>
+        <a href="./image-gallery.html"><li>Image Gallery</li></a>
+    </ul>
+</div>
+  <div class="banner">
     <div class="content">
-      <h1>Emi Yokoo Mantilla</h1>
-      <h2>a bit about myself...</h2>
-      <p>I am Japanese and Mexican. I have a love for activities that strengthen my muscles. For a couple of years, I trained alongst side professional Salsa dancers and have performed in front of hundreds of people. I loved it! During the pandemic, I bought myself a used road bike and am looking forward to when I sign up for a triatholon. I just sold my mountain bike since its a buyers market right now but I also loved riding on Barton Creek Trails and the South Austin Trail Network.</p>
-    </div>
+      <h1>Hi, I'm Emi:)</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin sollicitudin vestibulum. Morbi dictum placerat tortor, id consequat purus lobortis finibus. Fusce consequat hendrerit sapien, et faucibus est malesuada sit amet. Nam ornare est tellus, sed rhoncus justo ullamcorper nec. Etiam lobortis, augue nec imperdiet vestibulum, quam arcu bibendum erat, at porta arcu velit sed nibh. Duis congue lectus non ex tincidunt, mollis molestie felis viverra. Curabitur porttitor, urna non dictum fermentum, est ex dignissim mauris, blandit dictum diam velit at libero. Integer non convallis elit. Maecenas in quam nulla.</p>
+    </div> 
+    <!-- <div class="portrait">
+      <img src="aboutPic.jpg" alt="Portrait of Me">
+    </div> -->
     <div class="mtb">
-      <img src="mtb.jpg" alt="Night Riding">
+      <img src="mtb.jpg" id=mtb alt="Night Riding">
     </div>
+    </div>
+    
   </div>
 </body>
 </html>
