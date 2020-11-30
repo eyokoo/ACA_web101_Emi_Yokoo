@@ -12,41 +12,18 @@ html{
 
 body{
   font-family:'Roboto',sans-serif;
-}
-
-header{
-  height:10vh;
-  max-width:auto;
-  margin:auto;
-  padding:20px;
-}
-
-nav{
-  display:flex;
-}
-nav ul {
-	margin:0 3rem 0 0;
-	padding:0;
-	list-style:none;
-	display:flex;
-	flex:1 0 0%;
-  justify-content:space-evenly;
-  font-size: 2em;
-}
-
-a{
-  text-decoration: none;
+  background-color: #a55c1b;
+  background-image: linear-gradient(315deg, #a55c1b 0%, #000000 74%);
 }
 
 .banner{
   display:flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
+  justify-content: center;
   height:100vh;
   margin-top:25px;
 }
-.portrait{
-  align-self: center;
-}
+
 .content{
   align-self:center;
   text-align: center;
@@ -55,46 +32,24 @@ a{
   align-self: center;
 }
 
-h1{
-  margin:25px;
-  font-size: 40px;
+#mtb{
+  border-radius: 10%;
 }
-h2{
-  font-size: 25px;
+
+h1{
+  font-size: 65px;
+  color: white;
+  text-shadow: 8px 8px 8px #14011f;
 }
 p{
   padding:50px;
   max-width: 800px;
-  font-size: 15px;
-}
-/* .banner{
-  display:flex;
-  flex-wrap:wrap;
-  height:90vh;
-  gap:25px;
-  justify-content:space-around;
+  font-size: 25px;
+  color:white;
+  text-shadow: 8px 4px 8px #14011a;
+  
 }
 
-.portrait{
-  flex:2;
-  display:flex;
-  align-self:center;
-  justify-content: center;
-  object-fit:contain;
-}
-
-.content{
-  flex:3;
-  display:flex;
-  flex-direction: column;
-  align-self:center;
-  border:2px solid black;
-}
-
-.banner .content{
-  background:red;
-
-} */
 
 /*//////////////// HAMBURGER NAV BAR //////////////////*/
 #menuToggle
